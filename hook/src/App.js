@@ -1,22 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import NumKey from "./components/NumKey";
 
 function App() {
+  // const [count, setCount] = useState(0);
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>יוסי</h1>
+        {/* <יוסי /> */}
+        <h1>יחיאל</h1>
+        <NumKey />
+        {/* {count}
+        {Array.from({ length: 10 }).map((_, i) => (
+          <NumKey key={i} num={i} count={count} setCount={setCount} />
+        ))}
+        <button onClick={() => setCount(0)}>reset</button> */}
+        <h1>אליהו</h1>
+        {/* <אליהו /> */}
       </header>
     </div>
   );
