@@ -5,6 +5,7 @@ import NumKey from "./components/NumKey";
 function App() {
   // const [count, setCount] = useState(0);
 
+
   return (
     <div className="App">
       <header className="App-header">
@@ -19,9 +20,10 @@ function App() {
         <button onClick={() => setCount(0)}>reset</button> */}
         <h1>אליהו</h1>
         {/* <אליהו /> */}
+
       </header>
     </div>
   );
 }
 
-export default App;
+
